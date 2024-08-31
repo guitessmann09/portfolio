@@ -136,6 +136,55 @@ body {
   text-align: center;
 }
 
+/* PROJECTS */
+
+.section-content .project-card:nth-child(3),
+.section-content .project-card:nth-child(5) {
+  justify-content: flex-end;
+}
+
+.section-content .project-card:nth-child(3) img,
+.section-content .project-card:nth-child(5) img {
+  order: 2;
+  margin-left: 50px;
+  margin-right: 0;
+}
+
+.section-content .project-card:nth-child(3) .project-card-text,
+.section-content .project-card:nth-child(5) .project-card-text {
+  text-align: end;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+}
+
+.project-card img {
+  width: 300px;
+  height: 300px;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+
+.project-card .project-card-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  max-width: 600px;
+}
+
+.project-card .project-card-text h3 {
+  font-weight: 500;
+  font-size: 2.25rem;
+  margin-bottom: 10px;
+}
+
+.project-card .project-card-text p {
+  line-height: 1.875rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
 /* UTILITIES */
 .section-cotainer {
   width: 100%;
