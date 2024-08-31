@@ -165,6 +165,8 @@ body {
   height: 300px;
   margin-right: 50px;
   margin-top: 60px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
 }
 
 .project-card .project-card-text {
@@ -182,7 +184,42 @@ body {
 
 .project-card .project-card-text p {
   line-height: 1.875rem;
-  color: hsla(0, 0%, 100%, 0.75);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* CONTATO FORM */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form .form-input {
+  margin-bottom: 30px;
+}
+.contact-form .form-input:first-child {
+  margin-top: 40px;
+}
+
+/* FOOTER */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: black;
+}
+
+.sociais .icon {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-container .footer-text span {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 400;
 }
 
 /* UTILITIES */
@@ -213,4 +250,32 @@ body {
   margin-bottom: 60px;
   text-align: center;
   width: fit-content;
+}
+
+.form-input {
+  padding: 20px;
+  border: none;
+  background-color: rgba(32, 32, 32, 1);
+  border-radius: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  resize: none;
+}
+
+.form-input:focus {
+  outline: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.button {
+  border: none;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.button:hover {
+  cursor: pointer;
 }
