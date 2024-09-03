@@ -1,0 +1,121 @@
+@media (max-width: 1024px) {
+  .navbar-container {
+    display: none;
+  }
+
+  /* SHOWCASE */
+
+  .showcase-container h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3.3rem;
+  }
+  .showcase-container p {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+
+  /* ABOUT */
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-container img {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-container p {
+    text-align: center;
+    margin: 20px 10px 10px;
+    font-size: 0.875rem;
+  }
+
+  /* SKILLS */
+
+  .skills-cards {
+    grid-template-columns: 100%;
+    row-gap: 40px;
+  }
+
+  .skill-card-item {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .skill-card-item img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .skill-card-item h2 {
+    font-size: 1rem;
+  }
+
+  .skill-card-item p {
+    font-size: 0.875rem;
+  }
+
+  /* PROJETOS */
+  .project-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .project-card img {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 250px;
+  }
+  .project-card .project-card-text h3 {
+    font-size: 1.5rem;
+  }
+  .project-card .project-card-text p {
+    margin-bottom: 40px;
+    font-size: 1rem;
+  }
+
+  .section-content .project-card:last-child .project-card-text p {
+    margin-bottom: 0;
+  }
+
+  .section-content .project-card:nth-child(3) img,
+  .section-content .project-card:nth-child(5) img {
+    margin: 0;
+    order: 1;
+  }
+  .section-content .project-card:nth-child(3) .project-card-text,
+  .section-content .project-card:nth-child(5) .project-card-text {
+    text-align: center;
+    order: 2;
+  }
+
+  /* CONTACT FORM */
+  .contact-form .form-input:first-child {
+    margin-top: 0px;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+  }
+  .sociais a:last-child {
+    margin-right: 0;
+  }
+
+  .footer-text {
+    margin-top: 10px;
+  }
+
+  /* UTILIDADES */
+  .section-content {
+    padding: 30px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+}

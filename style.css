@@ -213,9 +213,12 @@ body {
   background-color: black;
 }
 
-.sociais .icon {
-  color: rgb(255, 255, 255);
+.sociais a {
   margin-right: 25px;
+}
+
+.sociais .icon {
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .footer-container .footer-text span {
